@@ -30,9 +30,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 7572770000000,
-                        "total": 29708408034493,
-                        "user": 21917380000000
+                        "system": 4620750000000,
+                        "total": 18275709711506,
+                        "user": 13521610000000
                     }
                 },
                 "custom_metrics": {},
@@ -52,7 +52,7 @@
                         "sectors_read": 0,
                         "sectors_written": 0,
                         "type": "vfs",
-                        "usage": 4095868928,
+                        "usage": 4067958784,
                         "weighted_io_time": 0,
                         "write_time": 0,
                         "writes_completed": 0,
@@ -60,9 +60,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 161959936,
+                    "cache": 148967424,
                     "container_data": {
-                        "pgfault": 40715,
+                        "pgfault": 40633,
                         "pgmajfault": 108
                     },
                     "failcnt": 0,
@@ -71,39 +71,39 @@
                         "pgmajfault": 0
                     },
                     "rss": 1753088,
-                    "usage": 5706330112,
-                    "working_set": 3234557952
+                    "usage": 5451620352,
+                    "working_set": 2999353344
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         },
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 135275
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
@@ -130,12 +130,12 @@
                         "SynSent": 0,
                         "TimeWait": 0
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -181,9 +181,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 1750000000,
-                        "total": 8146419368,
-                        "user": 3400000000
+                        "system": 1260000000,
+                        "total": 5275345089,
+                        "user": 2260000000
                     }
                 },
                 "custom_metrics": {},
@@ -211,9 +211,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 225280,
+                    "cache": 204800,
                     "container_data": {
-                        "pgfault": 2774,
+                        "pgfault": 2648,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -221,72 +221,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 7131136,
-                    "usage": 7356416,
-                    "working_set": 7356416
+                    "rss": 7041024,
+                    "usage": 7245824,
+                    "working_set": 7245824
                 },
                 "network": {
                     "interfaces": [
                         {
-                            "name": "eth0",
-                            "rx_bytes": 1481197053,
+                            "name": "cbr0",
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230539,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 312
                         },
                         {
-                            "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "name": "eth0",
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 135275
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787191,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238053,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -332,9 +332,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 3356990000000,
-                        "total": 21982592458027,
-                        "user": 18591100000000
+                        "system": 2063990000000,
+                        "total": 13524583634003,
+                        "user": 11439820000000
                     }
                 },
                 "custom_metrics": {},
@@ -354,7 +354,7 @@
                         "sectors_read": 0,
                         "sectors_written": 0,
                         "type": "vfs",
-                        "usage": 2154496,
+                        "usage": 1335296,
                         "weighted_io_time": 0,
                         "write_time": 0,
                         "writes_completed": 0,
@@ -364,7 +364,7 @@
                 "memory": {
                     "cache": 1003520,
                     "container_data": {
-                        "pgfault": 936682333,
+                        "pgfault": 577456602,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -372,72 +372,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 41189376,
-                    "usage": 42500096,
-                    "working_set": 42500096
+                    "rss": 581632,
+                    "usage": 1585152,
+                    "working_set": 1585152
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -483,9 +483,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 15380000000,
-                        "total": 98201936636,
-                        "user": 34290000000
+                        "system": 9490000000,
+                        "total": 60372860183,
+                        "user": 21010000000
                     }
                 },
                 "custom_metrics": {},
@@ -513,9 +513,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 124858368,
+                    "cache": 71553024,
                     "container_data": {
-                        "pgfault": 87464,
+                        "pgfault": 47770,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -523,72 +523,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 65990656,
-                    "usage": 190849024,
-                    "working_set": 124805120
+                    "rss": 69619712,
+                    "usage": 141172736,
+                    "working_set": 106102784
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -682,64 +682,64 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -785,9 +785,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 29010000000,
-                        "total": 232624625315,
-                        "user": 178930000000
+                        "system": 18000000000,
+                        "total": 142610323567,
+                        "user": 109290000000
                     }
                 },
                 "custom_metrics": {},
@@ -815,9 +815,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 17805312,
+                    "cache": 11042816,
                     "container_data": {
-                        "pgfault": 48370,
+                        "pgfault": 37120,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -825,93 +825,93 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 192274432,
-                    "usage": 210079744,
-                    "working_set": 210075648
+                    "rss": 146382848,
+                    "usage": 157425664,
+                    "working_set": 157421568
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
     },
-    "/582ad9432b7e": {
+    "/57e49e72b30c": {
         "aliases": [],
-        "id": "582ad9432b7e",
+        "id": "57e49e72b30c",
         "labels": {
             "io.kubernetes.container.name": "snap",
             "io.kubernetes.pod.name": "snap-x6vkq",
             "io.kubernetes.pod.namespace": "kube-system",
             "io.kubernetes.pod.uid": "5f2bc8a4-314a-11e6-bd0a-42010af00002"
         },
-        "name": "/582ad9432b7e",
+        "name": "/57e49e72b30c",
         "spec": {
             "cpu": {
                 "limit": 2,
                 "mask": "0-1",
                 "max_limit": 2
             },
-            "creation_time": "2016-06-13T13:48:27Z",
+            "creation_time": "2016-06-13T09:38:41Z",
             "custom_metrics": [],
             "has_cpu": true,
             "has_custom_metrics": true,
@@ -936,9 +936,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 597280000000,
-                        "total": 1006147209016,
-                        "user": 413860000000
+                        "system": 2245290000000,
+                        "total": 3764570477246,
+                        "user": 1536620000000
                     }
                 },
                 "custom_metrics": {},
@@ -966,9 +966,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 27283456,
+                    "cache": 28340224,
                     "container_data": {
-                        "pgfault": 4459426,
+                        "pgfault": 17797711,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -976,72 +976,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 88535040,
-                    "usage": 115818496,
-                    "working_set": 115814400
+                    "rss": 90636288,
+                    "usage": 118976512,
+                    "working_set": 118972416
                 },
                 "network": {
                     "interfaces": [
                         {
-                            "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "name": "eth0",
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 135275
                         },
                         {
-                            "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "name": "cbr0",
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1087,9 +1087,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 17990000000,
-                        "total": 89558089432,
-                        "user": 41000000000
+                        "system": 11110000000,
+                        "total": 54896869418,
+                        "user": 25420000000
                     }
                 },
                 "custom_metrics": {},
@@ -1117,9 +1117,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 8966144,
+                    "cache": 5668864,
                     "container_data": {
-                        "pgfault": 8058,
+                        "pgfault": 7775,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -1127,72 +1127,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 26689536,
-                    "usage": 35655680,
-                    "working_set": 35565568
+                    "rss": 26562560,
+                    "usage": 32231424,
+                    "working_set": 32153600
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196619,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230534,
-                            "tx_bytes": 307730224,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200445
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786757,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238048,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744220,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200935
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1286,64 +1286,64 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1437,21 +1437,21 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 20508,
+                            "rx_bytes": 13032,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 485,
-                            "tx_bytes": 695334,
+                            "rx_packets": 307,
+                            "tx_bytes": 428274,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 7514
+                            "tx_packets": 4632
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 20508,
+                    "rx_bytes": 13032,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 485,
+                    "rx_packets": 307,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
@@ -1478,12 +1478,12 @@
                         "SynSent": 0,
                         "TimeWait": 0
                     },
-                    "tx_bytes": 695334,
+                    "tx_bytes": 428274,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 7514
+                    "tx_packets": 4632
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1576,65 +1576,65 @@
                 "network": {
                     "interfaces": [
                         {
-                            "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "name": "cbr0",
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 312
                         },
                         {
-                            "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "name": "eth0",
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 135275
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1727,65 +1727,65 @@
                 "network": {
                     "interfaces": [
                         {
-                            "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "name": "eth0",
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 135275
                         },
                         {
-                            "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "name": "cbr0",
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1879,64 +1879,64 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196987,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230538,
-                            "tx_bytes": 307730526,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200448
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481787125,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238052,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744522,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200938
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -1982,9 +1982,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 4970000000,
-                        "total": 51666931997,
-                        "user": 5350000000
+                        "system": 3010000000,
+                        "total": 31691498109,
+                        "user": 3300000000
                     }
                 },
                 "custom_metrics": {},
@@ -2012,9 +2012,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 6316032,
+                    "cache": 4120576,
                     "container_data": {
-                        "pgfault": 9110,
+                        "pgfault": 6654,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -2022,72 +2022,72 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 9555968,
-                    "usage": 15872000,
-                    "working_set": 13955072
+                    "rss": 8413184,
+                    "usage": 12533760,
+                    "working_set": 11255808
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -2133,9 +2133,9 @@
                 "cpu": {
                     "load_average": 0,
                     "usage": {
-                        "system": 14350000000,
-                        "total": 85581525153,
-                        "user": 43770000000
+                        "system": 8920000000,
+                        "total": 52929541610,
+                        "user": 27190000000
                     }
                 },
                 "custom_metrics": {},
@@ -2155,7 +2155,7 @@
                         "sectors_read": 0,
                         "sectors_written": 0,
                         "type": "vfs",
-                        "usage": 90112,
+                        "usage": 69632,
                         "weighted_io_time": 0,
                         "write_time": 0,
                         "writes_completed": 0,
@@ -2163,9 +2163,9 @@
                     }
                 ],
                 "memory": {
-                    "cache": 245760,
+                    "cache": 208896,
                     "container_data": {
-                        "pgfault": 38042,
+                        "pgfault": 33154,
                         "pgmajfault": 0
                     },
                     "failcnt": 0,
@@ -2173,29 +2173,29 @@
                         "pgfault": 0,
                         "pgmajfault": 0
                     },
-                    "rss": 143503360,
-                    "usage": 143749120,
-                    "working_set": 143667200
+                    "rss": 127102976,
+                    "usage": 127311872,
+                    "working_set": 127234048
                 },
                 "network": {
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 20508,
+                            "rx_bytes": 13032,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 485,
-                            "tx_bytes": 695334,
+                            "rx_packets": 307,
+                            "tx_bytes": 428274,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 7514
+                            "tx_packets": 4632
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 20508,
+                    "rx_bytes": 13032,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 485,
+                    "rx_packets": 307,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
@@ -2222,12 +2222,12 @@
                         "SynSent": 0,
                         "TimeWait": 0
                     },
-                    "tx_bytes": 695334,
+                    "tx_bytes": 428274,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 7514
+                    "tx_packets": 4632
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -2321,64 +2321,64 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196737,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230535,
-                            "tx_bytes": 307730342,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200446
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786875,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238049,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744338,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200936
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
@@ -2472,64 +2472,64 @@
                     "interfaces": [
                         {
                             "name": "eth0",
-                            "rx_bytes": 1481196619,
+                            "rx_bytes": 1453984369,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 230534,
-                            "tx_bytes": 307730224,
+                            "rx_packets": 160569,
+                            "tx_bytes": 188378045,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 200445
+                            "tx_packets": 135275
                         },
                         {
                             "name": "cbr0",
-                            "rx_bytes": 590138,
+                            "rx_bytes": 363426,
                             "rx_dropped": 0,
                             "rx_errors": 0,
-                            "rx_packets": 7514,
-                            "tx_bytes": 13996,
+                            "rx_packets": 4632,
+                            "tx_bytes": 9012,
                             "tx_dropped": 0,
                             "tx_errors": 0,
-                            "tx_packets": 490
+                            "tx_packets": 312
                         }
                     ],
                     "name": "total",
-                    "rx_bytes": 1481786757,
+                    "rx_bytes": 1454347795,
                     "rx_dropped": 0,
                     "rx_errors": 0,
-                    "rx_packets": 238048,
+                    "rx_packets": 165201,
                     "tcp": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
                     "tcp6": {
                         "Close": 0,
                         "CloseWait": 0,
                         "Closing": 0,
-                        "Established": 268,
+                        "Established": 267,
                         "FinWait1": 0,
                         "FinWait2": 0,
                         "LastAck": 0,
                         "Listen": 10,
                         "SynRecv": 0,
                         "SynSent": 0,
-                        "TimeWait": 66
+                        "TimeWait": 73
                     },
-                    "tx_bytes": 307744220,
+                    "tx_bytes": 188387057,
                     "tx_dropped": 0,
                     "tx_errors": 0,
-                    "tx_packets": 200935
+                    "tx_packets": 135587
                 },
-                "timestamp": "2016-06-13T14:30:34Z"
+                "timestamp": "2016-06-13T12:37:44Z"
             }
         ],
         "subcontainers": []
