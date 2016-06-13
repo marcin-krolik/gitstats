@@ -1,0 +1,2537 @@
+{
+    "/": {
+        "aliases": [],
+        "id": "/",
+        "labels": {},
+        "name": "/",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "1970-01-01T00:00:00Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "",
+            "labels": {},
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 396040000000,
+                        "total": 1623872048454,
+                        "user": 1208840000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 63140552704,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 4063485952,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 44707840,
+                    "container_data": {
+                        "pgfault": 40466,
+                        "pgmajfault": 108
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 1789952,
+                    "usage": 5025878016,
+                    "working_set": 2684977152
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        },
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536648,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73126,
+                            "tx_bytes": 15624300,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51672
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563850,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73472,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tx_bytes": 15625416,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51702
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/086ece2b224d": {
+        "aliases": [],
+        "id": "086ece2b224d",
+        "labels": {
+            "io.kubernetes.container.name": "kube-scheduler",
+            "io.kubernetes.pod.name": "kube-scheduler-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "15b80e2a2c91bc28c0bcec773f9fa056"
+        },
+        "name": "/086ece2b224d",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:32Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/kube-scheduler:038e7dc239159a4b1479c8588e529cf7",
+            "labels": {
+                "io.kubernetes.container.name": "kube-scheduler",
+                "io.kubernetes.pod.name": "kube-scheduler-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "15b80e2a2c91bc28c0bcec773f9fa056"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 430000000,
+                        "total": 994081639,
+                        "user": 410000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 12288,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 176128,
+                    "container_data": {
+                        "pgfault": 2449,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 7073792,
+                    "usage": 7249920,
+                    "working_set": 7249920
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        },
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/0ff918e3580d": {
+        "aliases": [],
+        "id": "0ff918e3580d",
+        "labels": {
+            "io.kubernetes.container.name": "kube-addon-manager",
+            "io.kubernetes.pod.name": "kube-addon-manager-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "b65b8f8c70f979bdf8d04be1dd0bc112"
+        },
+        "name": "/0ff918e3580d",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:49Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google-containers/kube-addon-manager:v1",
+            "labels": {
+                "io.kubernetes.container.name": "kube-addon-manager",
+                "io.kubernetes.pod.name": "kube-addon-manager-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "b65b8f8c70f979bdf8d04be1dd0bc112"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 162820000000,
+                        "total": 1064649312996,
+                        "user": 900800000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 126976,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 1003520,
+                    "container_data": {
+                        "pgfault": 44763550,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 26722304,
+                    "usage": 28213248,
+                    "working_set": 28213248
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537107,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73128,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564309,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73474,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/4daa25752947": {
+        "aliases": [],
+        "id": "4daa25752947",
+        "labels": {
+            "io.kubernetes.container.name": "etcd-container",
+            "io.kubernetes.pod.name": "etcd-server-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "a88089e07d0c8febd8c6468ca753bed0"
+        },
+        "name": "/4daa25752947",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:36Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/etcd:2.2.1",
+            "labels": {
+                "io.kubernetes.container.name": "etcd-container",
+                "io.kubernetes.pod.name": "etcd-server-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "a88089e07d0c8febd8c6468ca753bed0"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 840000000,
+                        "total": 4943140841,
+                        "user": 1770000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 12288,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 3993600,
+                    "container_data": {
+                        "pgfault": 5933,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 22482944,
+                    "usage": 26476544,
+                    "working_set": 25800704
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536582,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73125,
+                            "tx_bytes": 15624138,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51670
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563784,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73471,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625254,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51700
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/4eef7220aa84": {
+        "aliases": [],
+        "id": "4eef7220aa84",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "snap-x6vkq",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "5f2bc8a4-314a-11e6-bd0a-42010af00002"
+        },
+        "name": "/4eef7220aa84",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:57Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "snap-x6vkq",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "5f2bc8a4-314a-11e6-bd0a-42010af00002"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 8626947,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 111,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 40960,
+                    "usage": 45056,
+                    "working_set": 45056
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536582,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73125,
+                            "tx_bytes": 15624138,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51670
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563784,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73471,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625254,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51700
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/4f4aec4cdaee": {
+        "aliases": [],
+        "id": "4f4aec4cdaee",
+        "labels": {
+            "io.kubernetes.container.name": "kube-apiserver",
+            "io.kubernetes.pod.name": "kube-apiserver-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "58bcdd9e2e1c34b1ecbacb84cfb96a71"
+        },
+        "name": "/4f4aec4cdaee",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:51Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/kube-apiserver:ac0c27e1b0ce488543404006d56de0c7",
+            "labels": {
+                "io.kubernetes.container.name": "kube-apiserver",
+                "io.kubernetes.pod.name": "kube-apiserver-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "58bcdd9e2e1c34b1ecbacb84cfb96a71"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 1680000000,
+                        "total": 13430779221,
+                        "user": 10410000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 16384,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 1073152,
+                    "container_data": {
+                        "pgfault": 18382,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 70135808,
+                    "usage": 71208960,
+                    "working_set": 71208960
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537107,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73128,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564309,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73474,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/57e49e72b30c": {
+        "aliases": [],
+        "id": "57e49e72b30c",
+        "labels": {
+            "io.kubernetes.container.name": "snap",
+            "io.kubernetes.pod.name": "snap-x6vkq",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "5f2bc8a4-314a-11e6-bd0a-42010af00002"
+        },
+        "name": "/57e49e72b30c",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:38:41Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/snap-marcin/snap",
+            "labels": {
+                "io.kubernetes.container.name": "snap",
+                "io.kubernetes.pod.name": "snap-x6vkq",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "5f2bc8a4-314a-11e6-bd0a-42010af00002"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 156670000000,
+                        "total": 281002113126,
+                        "user": 124860000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 16384,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 26714112,
+                    "container_data": {
+                        "pgfault": 1259556,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 85045248,
+                    "usage": 111759360,
+                    "working_set": 111755264
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/5f0bc6b48459": {
+        "aliases": [],
+        "id": "5f0bc6b48459",
+        "labels": {
+            "io.kubernetes.container.name": "kube-controller-manager",
+            "io.kubernetes.pod.name": "kube-controller-manager-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "442eacfc076b9aea8d1edaf3097d1fa5"
+        },
+        "name": "/5f0bc6b48459",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:43Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/kube-controller-manager:29de65d326fc1dd26cedee0b0d7c8dd4",
+            "labels": {
+                "io.kubernetes.container.name": "kube-controller-manager",
+                "io.kubernetes.pod.name": "kube-controller-manager-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "442eacfc076b9aea8d1edaf3097d1fa5"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 930000000,
+                        "total": 4848456669,
+                        "user": 2450000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 16384,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 815104,
+                    "container_data": {
+                        "pgfault": 7083,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 24993792,
+                    "usage": 25808896,
+                    "working_set": 25796608
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/78ee92e8e1fc": {
+        "aliases": [],
+        "id": "78ee92e8e1fc",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "etcd-server-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "a88089e07d0c8febd8c6468ca753bed0"
+        },
+        "name": "/78ee92e8e1fc",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:31Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "etcd-server-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "a88089e07d0c8febd8c6468ca753bed0"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 7449521,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 0,
+                    "container_data": {
+                        "pgfault": 89,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 36864,
+                    "usage": 36864,
+                    "working_set": 36864
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536648,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73126,
+                            "tx_bytes": 15624300,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51672
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563850,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73472,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625416,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51702
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/7af92985e7ca": {
+        "aliases": [],
+        "id": "7af92985e7ca",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "fluentd-elasticsearch-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "781a0aa9da59c1d011e85a772ac0bf6b"
+        },
+        "name": "/7af92985e7ca",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:31Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "fluentd-elasticsearch-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "781a0aa9da59c1d011e85a772ac0bf6b"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 7115636,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 28672,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 98,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 45056,
+                    "usage": 49152,
+                    "working_set": 49152
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1188,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 25,
+                            "tx_bytes": 32046,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 346
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1188,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 25,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tx_bytes": 32046,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 346
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/8df0338e70d4": {
+        "aliases": [],
+        "id": "8df0338e70d4",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "kube-scheduler-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "15b80e2a2c91bc28c0bcec773f9fa056"
+        },
+        "name": "/8df0338e70d4",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:32Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "kube-scheduler-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "15b80e2a2c91bc28c0bcec773f9fa056"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 6984843,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 111,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 40960,
+                    "usage": 45056,
+                    "working_set": 45056
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        },
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/b668e581825b": {
+        "aliases": [],
+        "id": "b668e581825b",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "kube-addon-manager-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "b65b8f8c70f979bdf8d04be1dd0bc112"
+        },
+        "name": "/b668e581825b",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:31Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "kube-addon-manager-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "b65b8f8c70f979bdf8d04be1dd0bc112"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 7476981,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 81,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 36864,
+                    "usage": 40960,
+                    "working_set": 40960
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/c38c7aa91b3d": {
+        "aliases": [],
+        "id": "c38c7aa91b3d",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "etcd-server-events-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "143de858cdb69884db924590c6b0d45e"
+        },
+        "name": "/c38c7aa91b3d",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:31Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "etcd-server-events-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "143de858cdb69884db924590c6b0d45e"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 172170444,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 85,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 36864,
+                    "usage": 40960,
+                    "working_set": 40960
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        },
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/daaaa816267b": {
+        "aliases": [],
+        "id": "daaaa816267b",
+        "labels": {
+            "io.kubernetes.container.name": "etcd-container",
+            "io.kubernetes.pod.name": "etcd-server-events-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "143de858cdb69884db924590c6b0d45e"
+        },
+        "name": "/daaaa816267b",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:36Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/etcd:2.2.1",
+            "labels": {
+                "io.kubernetes.container.name": "etcd-container",
+                "io.kubernetes.pod.name": "etcd-server-events-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "143de858cdb69884db924590c6b0d45e"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 330000000,
+                        "total": 2674602951,
+                        "user": 390000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 12288,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 569344,
+                    "container_data": {
+                        "pgfault": 2134,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 6688768,
+                    "usage": 7258112,
+                    "working_set": 7258112
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536582,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73125,
+                            "tx_bytes": 15624138,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51670
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563784,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73471,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625254,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51700
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/db8a0ace586d": {
+        "aliases": [],
+        "id": "db8a0ace586d",
+        "labels": {
+            "io.kubernetes.container.name": "fluentd-elasticsearch",
+            "io.kubernetes.pod.name": "fluentd-elasticsearch-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "781a0aa9da59c1d011e85a772ac0bf6b"
+        },
+        "name": "/db8a0ace586d",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:37:24Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/fluentd-elasticsearch:1.15",
+            "labels": {
+                "io.kubernetes.container.name": "fluentd-elasticsearch",
+                "io.kubernetes.pod.name": "fluentd-elasticsearch-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "781a0aa9da59c1d011e85a772ac0bf6b"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 1060000000,
+                        "total": 5696008126,
+                        "user": 3080000000
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 40960,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 139264,
+                    "container_data": {
+                        "pgfault": 24160,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 96022528,
+                    "usage": 96161792,
+                    "working_set": 96092160
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1188,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 25,
+                            "tx_bytes": 32046,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 346
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1188,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 25,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 0,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 0,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 0
+                    },
+                    "tx_bytes": 32046,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 346
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/e30e0bc271d7": {
+        "aliases": [],
+        "id": "e30e0bc271d7",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "kube-controller-manager-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "442eacfc076b9aea8d1edaf3097d1fa5"
+        },
+        "name": "/e30e0bc271d7",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:32Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "kube-controller-manager-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "442eacfc076b9aea8d1edaf3097d1fa5"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 10790041,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 4096,
+                    "container_data": {
+                        "pgfault": 380,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 40960,
+                    "usage": 45056,
+                    "working_set": 45056
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417536648,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73126,
+                            "tx_bytes": 15624300,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51672
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417563850,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73472,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625416,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51702
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    },
+    "/ee7d1eecf5b3": {
+        "aliases": [],
+        "id": "ee7d1eecf5b3",
+        "labels": {
+            "io.kubernetes.container.name": "POD",
+            "io.kubernetes.pod.name": "kube-apiserver-e2e-test-root-master",
+            "io.kubernetes.pod.namespace": "kube-system",
+            "io.kubernetes.pod.uid": "58bcdd9e2e1c34b1ecbacb84cfb96a71"
+        },
+        "name": "/ee7d1eecf5b3",
+        "spec": {
+            "cpu": {
+                "limit": 2,
+                "mask": "0-1",
+                "max_limit": 2
+            },
+            "creation_time": "2016-06-13T09:36:31Z",
+            "custom_metrics": [],
+            "has_cpu": true,
+            "has_custom_metrics": true,
+            "has_diskio": false,
+            "has_filesystem": true,
+            "has_memory": true,
+            "has_network": true,
+            "image": "gcr.io/google_containers/pause-amd64:3.0",
+            "labels": {
+                "io.kubernetes.container.name": "POD",
+                "io.kubernetes.pod.name": "kube-apiserver-e2e-test-root-master",
+                "io.kubernetes.pod.namespace": "kube-system",
+                "io.kubernetes.pod.uid": "58bcdd9e2e1c34b1ecbacb84cfb96a71"
+            },
+            "memory": {
+                "limit": 0,
+                "swap_limit": 0
+            }
+        },
+        "stats": [
+            {
+                "cpu": {
+                    "load_average": 0,
+                    "usage": {
+                        "system": 0,
+                        "total": 8716970,
+                        "user": 0
+                    }
+                },
+                "custom_metrics": {},
+                "diskio": {},
+                "filesystem": [
+                    {
+                        "available": 0,
+                        "base_usage": 0,
+                        "capacity": 0,
+                        "device": "/dev/sdx1",
+                        "inodes_free": 0,
+                        "io_in_progress": 0,
+                        "io_time": 0,
+                        "read_time": 0,
+                        "reads_completed": 0,
+                        "reads_merged": 0,
+                        "sectors_read": 0,
+                        "sectors_written": 0,
+                        "type": "vfs",
+                        "usage": 24576,
+                        "weighted_io_time": 0,
+                        "write_time": 0,
+                        "writes_completed": 0,
+                        "writes_merged": 0
+                    }
+                ],
+                "memory": {
+                    "cache": 0,
+                    "container_data": {
+                        "pgfault": 238,
+                        "pgmajfault": 0
+                    },
+                    "failcnt": 0,
+                    "hierarchical_data": {
+                        "pgfault": 0,
+                        "pgmajfault": 0
+                    },
+                    "rss": 36864,
+                    "usage": 36864,
+                    "working_set": 36864
+                },
+                "network": {
+                    "interfaces": [
+                        {
+                            "name": "eth0",
+                            "rx_bytes": 1417537173,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 73129,
+                            "tx_bytes": 15624466,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 51674
+                        },
+                        {
+                            "name": "cbr0",
+                            "rx_bytes": 27202,
+                            "rx_dropped": 0,
+                            "rx_errors": 0,
+                            "rx_packets": 346,
+                            "tx_bytes": 1116,
+                            "tx_dropped": 0,
+                            "tx_errors": 0,
+                            "tx_packets": 30
+                        }
+                    ],
+                    "name": "total",
+                    "rx_bytes": 1417564375,
+                    "rx_dropped": 0,
+                    "rx_errors": 0,
+                    "rx_packets": 73475,
+                    "tcp": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tcp6": {
+                        "Close": 0,
+                        "CloseWait": 0,
+                        "Closing": 0,
+                        "Established": 261,
+                        "FinWait1": 0,
+                        "FinWait2": 0,
+                        "LastAck": 0,
+                        "Listen": 10,
+                        "SynRecv": 0,
+                        "SynSent": 0,
+                        "TimeWait": 65
+                    },
+                    "tx_bytes": 15625582,
+                    "tx_dropped": 0,
+                    "tx_errors": 0,
+                    "tx_packets": 51704
+                },
+                "timestamp": "2016-06-13T09:50:45Z"
+            }
+        ],
+        "subcontainers": []
+    }
+}
