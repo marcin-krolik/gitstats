@@ -6,7 +6,7 @@
             "mask": "0-1", 
             "max_limit": 0
         }, 
-        "creation_time": "2016-06-16T06:51:08.012019Z", 
+        "creation_time": "2016-06-16T09:34:06.81941Z", 
         "has_cpu": true, 
         "has_custom_metrics": false, 
         "has_diskio": true, 
@@ -23,12 +23,12 @@
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1618820997556, 
-                        1625289733250
+                        302829489195, 
+                        297870877542
                     ], 
-                    "system": 968610000000, 
-                    "total": 3244110730806, 
-                    "user": 1567640000000
+                    "system": 103240000000, 
+                    "total": 600700366737, 
+                    "user": 467680000000
                 }
             }, 
             "diskio": {
@@ -37,11 +37,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -63,11 +63,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12682819584, 
-                            "Read": 230053888, 
-                            "Sync": 484470784, 
-                            "Total": 13167290368, 
-                            "Write": 12937236480
+                            "Async": 13019678720, 
+                            "Read": 233781248, 
+                            "Sync": 407625728, 
+                            "Total": 13427304448, 
+                            "Write": 13193523200
                         }
                     }
                 ], 
@@ -76,11 +76,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5383208186037, 
-                            "Read": 11188568275, 
-                            "Sync": 172090728172, 
-                            "Total": 5555298914209, 
-                            "Write": 5544110345934
+                            "Async": 6363857949359, 
+                            "Read": 13254366576, 
+                            "Sync": 112525064176, 
+                            "Total": 6476383013535, 
+                            "Write": 6463128646959
                         }
                     }
                 ], 
@@ -89,11 +89,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174557, 
-                            "Read": 7146, 
-                            "Sync": 6379, 
-                            "Total": 180936, 
-                            "Write": 173790
+                            "Async": 158545, 
+                            "Read": 7326, 
+                            "Sync": 4993, 
+                            "Total": 163538, 
+                            "Write": 156212
                         }
                     }
                 ], 
@@ -102,7 +102,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48620
+                            "Count": 29148
                         }
                     }
                 ], 
@@ -111,11 +111,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307630396895, 
-                            "Read": 8367764246, 
-                            "Sync": 2307947728, 
-                            "Total": 7309938344623, 
-                            "Write": 7301570580377
+                            "Async": 6738320552058, 
+                            "Read": 6604417208, 
+                            "Sync": 14968125455, 
+                            "Total": 6753288677513, 
+                            "Write": 6746684260305
                         }
                     }
                 ], 
@@ -124,78 +124,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25717028
+                            "Count": 26224924
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91006717952, 
+                    "available": 90838663168, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241212, 
+                    "inodes_free": 6237053, 
                     "io_in_progress": 0, 
-                    "io_time": 107676, 
-                    "read_time": 17416, 
-                    "reads_completed": 6628, 
-                    "reads_merged": 600, 
-                    "sectors_read": 444794, 
-                    "sectors_written": 25294176, 
+                    "io_time": 113040, 
+                    "read_time": 18892, 
+                    "reads_completed": 6808, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452074, 
+                    "sectors_written": 25775392, 
                     "type": "vfs", 
-                    "usage": 10127548416, 
-                    "weighted_io_time": 12835956, 
-                    "write_time": 12813192, 
-                    "writes_completed": 177057, 
-                    "writes_merged": 312586
+                    "usage": 10295603200, 
+                    "weighted_io_time": 13235752, 
+                    "write_time": 13212352, 
+                    "writes_completed": 157061, 
+                    "writes_merged": 296691
                 }
             ], 
             "memory": {
-                "cache": 1616052224, 
+                "cache": 1495531520, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6552936448, 
-                "working_set": 2153365504
+                "rss": 38346752, 
+                "usage": 6463893504, 
+                "working_set": 2218409984
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3089403338, 
+                        "rx_bytes": 2947760544, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 237129, 
-                        "tx_bytes": 226446580, 
+                        "rx_packets": 118184, 
+                        "tx_bytes": 6752686, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 205525
+                        "tx_packets": 69423
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 210855490, 
+                        "rx_bytes": 4112985, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 102991, 
-                        "tx_bytes": 204257288, 
+                        "rx_packets": 4727, 
+                        "tx_bytes": 6889997, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97474
+                        "tx_packets": 3213
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3089403338, 
+                "rx_bytes": 2947760544, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 237129, 
+                "rx_packets": 118184, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -222,10 +222,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 226446580, 
+                "tx_bytes": 6752686, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 205525
+                "tx_packets": 69423
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -234,19 +234,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:17:27.916830164Z"
+            "timestamp": "2016-06-16T09:42:48.588923182Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1620128039144, 
-                        1626596620353
+                        304507397674, 
+                        299766423794
                     ], 
-                    "system": 969170000000, 
-                    "total": 3246724659497, 
-                    "user": 1568880000000
+                    "system": 103730000000, 
+                    "total": 604273821468, 
+                    "user": 469460000000
                 }
             }, 
             "diskio": {
@@ -255,11 +255,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -281,11 +281,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12683057152, 
-                            "Read": 230070272, 
-                            "Sync": 484605952, 
-                            "Total": 13167663104, 
-                            "Write": 12937592832
+                            "Async": 13020207104, 
+                            "Read": 233793536, 
+                            "Sync": 408088576, 
+                            "Total": 13428295680, 
+                            "Write": 13194502144
                         }
                     }
                 ], 
@@ -294,11 +294,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5383527443967, 
-                            "Read": 11198190239, 
-                            "Sync": 172094353720, 
-                            "Total": 5555621797687, 
-                            "Write": 5544423607448
+                            "Async": 6363891195941, 
+                            "Read": 13255388870, 
+                            "Sync": 112561396611, 
+                            "Total": 6476452592552, 
+                            "Write": 6463197203682
                         }
                     }
                 ], 
@@ -307,11 +307,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174604, 
-                            "Read": 7150, 
-                            "Sync": 6382, 
-                            "Total": 180986, 
-                            "Write": 173836
+                            "Async": 158564, 
+                            "Read": 7327, 
+                            "Sync": 5019, 
+                            "Total": 163583, 
+                            "Write": 156256
                         }
                     }
                 ], 
@@ -320,7 +320,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48639
+                            "Count": 29199
                         }
                     }
                 ], 
@@ -329,11 +329,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307632009764, 
-                            "Read": 8367804145, 
-                            "Sync": 2308020449, 
-                            "Total": 7309940030213, 
-                            "Write": 7301572226068
+                            "Async": 6738320689070, 
+                            "Read": 6604444014, 
+                            "Sync": 14993040770, 
+                            "Total": 6753313729840, 
+                            "Write": 6746709285826
                         }
                     }
                 ], 
@@ -342,78 +342,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25717756
+                            "Count": 26226860
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91006713856, 
+                    "available": 90838581248, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241212, 
+                    "inodes_free": 6237052, 
                     "io_in_progress": 0, 
-                    "io_time": 107700, 
-                    "read_time": 17424, 
-                    "reads_completed": 6632, 
-                    "reads_merged": 600, 
-                    "sectors_read": 444826, 
-                    "sectors_written": 25294896, 
+                    "io_time": 113080, 
+                    "read_time": 18896, 
+                    "reads_completed": 6809, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452098, 
+                    "sectors_written": 25777336, 
                     "type": "vfs", 
-                    "usage": 10127552512, 
-                    "weighted_io_time": 12836220, 
-                    "write_time": 12813448, 
-                    "writes_completed": 177106, 
-                    "writes_merged": 312620
+                    "usage": 10295685120, 
+                    "weighted_io_time": 13235792, 
+                    "write_time": 13212388, 
+                    "writes_completed": 157109, 
+                    "writes_merged": 296746
                 }
             ], 
             "memory": {
-                "cache": 1616064512, 
+                "cache": 1495564288, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6553001984, 
-                "working_set": 2153594880
+                "rss": 38346752, 
+                "usage": 6463975424, 
+                "working_set": 2218577920
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3089579773, 
+                        "rx_bytes": 2948117250, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 237308, 
-                        "tx_bytes": 226495978, 
+                        "rx_packets": 118402, 
+                        "tx_bytes": 6819158, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 205677
+                        "tx_packets": 69626
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 210891239, 
+                        "rx_bytes": 4847756, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103081, 
-                        "tx_bytes": 204410038, 
+                        "rx_packets": 5358, 
+                        "tx_bytes": 7917438, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97559
+                        "tx_packets": 3512
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3089579773, 
+                "rx_bytes": 2948117250, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 237308, 
+                "rx_packets": 118402, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -440,10 +440,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 226495978, 
+                "tx_bytes": 6819158, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 205677
+                "tx_packets": 69626
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -452,19 +452,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:17:42.951075494Z"
+            "timestamp": "2016-06-16T09:43:08.250616932Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1621692024059, 
-                        1627538391018
+                        307088039237, 
+                        302397960842
                     ], 
-                    "system": 970370000000, 
-                    "total": 3249230415077, 
-                    "user": 1569720000000
+                    "system": 105720000000, 
+                    "total": 609486000079, 
+                    "user": 471610000000
                 }
             }, 
             "diskio": {
@@ -473,11 +473,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -499,11 +499,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12683077632, 
-                            "Read": 230070272, 
-                            "Sync": 484687872, 
-                            "Total": 13167765504, 
-                            "Write": 12937695232
+                            "Async": 13020366848, 
+                            "Read": 233797632, 
+                            "Sync": 410783744, 
+                            "Total": 13431150592, 
+                            "Write": 13197352960
                         }
                     }
                 ], 
@@ -512,11 +512,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5383532493642, 
-                            "Read": 11198190239, 
-                            "Sync": 172096919564, 
-                            "Total": 5555629413206, 
-                            "Write": 5544431222967
+                            "Async": 6363951403124, 
+                            "Read": 13256450623, 
+                            "Sync": 112718423310, 
+                            "Total": 6476669826434, 
+                            "Write": 6463413375811
                         }
                     }
                 ], 
@@ -525,11 +525,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174609, 
-                            "Read": 7150, 
-                            "Sync": 6384, 
-                            "Total": 180993, 
-                            "Write": 173843
+                            "Async": 158590, 
+                            "Read": 7328, 
+                            "Sync": 5055, 
+                            "Total": 163645, 
+                            "Write": 156317
                         }
                     }
                 ], 
@@ -538,7 +538,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48663
+                            "Count": 29256
                         }
                     }
                 ], 
@@ -547,11 +547,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307632063888, 
-                            "Read": 8367804145, 
-                            "Sync": 2308071557, 
-                            "Total": 7309940135445, 
-                            "Write": 7301572331300
+                            "Async": 6738321575585, 
+                            "Read": 6604467420, 
+                            "Sync": 15020885165, 
+                            "Total": 6753342460750, 
+                            "Write": 6746737993330
                         }
                     }
                 ], 
@@ -560,78 +560,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25717956
+                            "Count": 26232436
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91006697472, 
+                    "available": 90838597632, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241212, 
+                    "inodes_free": 6237052, 
                     "io_in_progress": 0, 
-                    "io_time": 107700, 
-                    "read_time": 17424, 
-                    "reads_completed": 6632, 
-                    "reads_merged": 600, 
-                    "sectors_read": 444826, 
-                    "sectors_written": 25295112, 
+                    "io_time": 113144, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25782952, 
                     "type": "vfs", 
-                    "usage": 10127568896, 
-                    "weighted_io_time": 12836220, 
-                    "write_time": 12813448, 
-                    "writes_completed": 177115, 
-                    "writes_merged": 312638
+                    "usage": 10295668736, 
+                    "weighted_io_time": 13235992, 
+                    "write_time": 13212584, 
+                    "writes_completed": 157176, 
+                    "writes_merged": 296829
                 }
             ], 
             "memory": {
-                "cache": 1616080896, 
+                "cache": 1495613440, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6553022464, 
-                "working_set": 2153619456
+                "rss": 38346752, 
+                "usage": 6464946176, 
+                "working_set": 2220130304
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3089704408, 
+                        "rx_bytes": 2948319291, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 237421, 
-                        "tx_bytes": 226532310, 
+                        "rx_packets": 118585, 
+                        "tx_bytes": 6966352, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 205780
+                        "tx_packets": 69807
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 210917227, 
+                        "rx_bytes": 4897531, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103135, 
-                        "tx_bytes": 204513909, 
+                        "rx_packets": 5449, 
+                        "tx_bytes": 8099188, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97609
+                        "tx_packets": 3603
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3089704408, 
+                "rx_bytes": 2948319291, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 237421, 
+                "rx_packets": 118585, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -658,10 +658,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 226532310, 
+                "tx_bytes": 6966352, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 205780
+                "tx_packets": 69807
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -670,19 +670,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:17:53.50494896Z"
+            "timestamp": "2016-06-16T09:43:25.908672659Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1622626718018, 
-                        1628427820407
+                        307753244840, 
+                        303234435203
                     ], 
-                    "system": 970620000000, 
-                    "total": 3251054538425, 
-                    "user": 1570640000000
+                    "system": 105860000000, 
+                    "total": 610987680043, 
+                    "user": 472460000000
                 }
             }, 
             "diskio": {
@@ -691,11 +691,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -717,11 +717,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12687665152, 
-                            "Read": 234584064, 
-                            "Sync": 485142528, 
-                            "Total": 13172807680, 
-                            "Write": 12938223616
+                            "Async": 13020387328, 
+                            "Read": 233797632, 
+                            "Sync": 411082752, 
+                            "Total": 13431470080, 
+                            "Write": 13197672448
                         }
                     }
                 ], 
@@ -730,11 +730,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5383652323154, 
-                            "Read": 11307319292, 
-                            "Sync": 172105363941, 
-                            "Total": 5555757687095, 
-                            "Write": 5544450367803
+                            "Async": 6363956345051, 
+                            "Read": 13256450623, 
+                            "Sync": 112750370201, 
+                            "Total": 6476706715252, 
+                            "Write": 6463450264629
                         }
                     }
                 ], 
@@ -743,11 +743,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174696, 
-                            "Read": 7225, 
-                            "Sync": 6389, 
-                            "Total": 181085, 
-                            "Write": 173860
+                            "Async": 158595, 
+                            "Read": 7328, 
+                            "Sync": 5077, 
+                            "Total": 163672, 
+                            "Write": 156344
                         }
                     }
                 ], 
@@ -756,7 +756,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48732
+                            "Count": 29279
                         }
                     }
                 ], 
@@ -765,11 +765,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307650742819, 
-                            "Read": 8368850257, 
-                            "Sync": 2320289878, 
-                            "Total": 7309971032697, 
-                            "Write": 7301602182440
+                            "Async": 6738325098269, 
+                            "Read": 6604467420, 
+                            "Sync": 15027888198, 
+                            "Total": 6753352986467, 
+                            "Write": 6746748519047
                         }
                     }
                 ], 
@@ -778,78 +778,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25727804
+                            "Count": 26233060
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91006038016, 
+                    "available": 90838519808, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241115, 
+                    "inodes_free": 6237052, 
                     "io_in_progress": 0, 
-                    "io_time": 107800, 
-                    "read_time": 17524, 
-                    "reads_completed": 6707, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453642, 
-                    "sectors_written": 25296168, 
+                    "io_time": 113156, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25783592, 
                     "type": "vfs", 
-                    "usage": 10128228352, 
-                    "weighted_io_time": 12836364, 
-                    "write_time": 12813492, 
-                    "writes_completed": 177135, 
-                    "writes_merged": 312744
+                    "usage": 10295746560, 
+                    "weighted_io_time": 13236020, 
+                    "write_time": 13212612, 
+                    "writes_completed": 157205, 
+                    "writes_merged": 296865
                 }
             ], 
             "memory": {
-                "cache": 1616101376, 
+                "cache": 1495629824, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6558248960, 
-                "working_set": 2155810816
+                "rss": 38346752, 
+                "usage": 6464184320, 
+                "working_set": 2219315200
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3090057993, 
+                        "rx_bytes": 2948483513, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 237697, 
-                        "tx_bytes": 227255001, 
+                        "rx_packets": 118714, 
+                        "tx_bytes": 7004265, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 206051
+                        "tx_packets": 69932
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 211612441, 
+                        "rx_bytes": 4926170, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103288, 
-                        "tx_bytes": 204820998, 
+                        "rx_packets": 5513, 
+                        "tx_bytes": 8203564, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97747
+                        "tx_packets": 3659
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3090057993, 
+                "rx_bytes": 2948483513, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 237697, 
+                "rx_packets": 118714, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -876,10 +876,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 227255001, 
+                "tx_bytes": 7004265, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 206051
+                "tx_packets": 69932
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -888,19 +888,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:18:08.291438439Z"
+            "timestamp": "2016-06-16T09:43:36.383054575Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1623741049986, 
-                        1630314482660
+                        309582652453, 
+                        305129187912
                     ], 
-                    "system": 972180000000, 
-                    "total": 3254055532646, 
-                    "user": 1571600000000
+                    "system": 107250000000, 
+                    "total": 614711840365, 
+                    "user": 473840000000
                 }
             }, 
             "diskio": {
@@ -909,11 +909,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -935,11 +935,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12689029120, 
-                            "Read": 234584064, 
-                            "Sync": 485330944, 
-                            "Total": 13174360064, 
-                            "Write": 12939776000
+                            "Async": 13020575744, 
+                            "Read": 233797632, 
+                            "Sync": 411328512, 
+                            "Total": 13431904256, 
+                            "Write": 13198106624
                         }
                     }
                 ], 
@@ -948,11 +948,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5384411795972, 
-                            "Read": 11307319292, 
-                            "Sync": 172109524497, 
-                            "Total": 5556521320469, 
-                            "Write": 5545214001177
+                            "Async": 6364026352613, 
+                            "Read": 13256450623, 
+                            "Sync": 112772256255, 
+                            "Total": 6476798608868, 
+                            "Write": 6463542158245
                         }
                     }
                 ], 
@@ -961,11 +961,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174809, 
-                            "Read": 7225, 
-                            "Sync": 6392, 
-                            "Total": 181201, 
-                            "Write": 173976
+                            "Async": 158635, 
+                            "Read": 7328, 
+                            "Sync": 5092, 
+                            "Total": 163727, 
+                            "Write": 156399
                         }
                     }
                 ], 
@@ -974,7 +974,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48759
+                            "Count": 29301
                         }
                     }
                 ], 
@@ -983,11 +983,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307652796527, 
-                            "Read": 8368850257, 
-                            "Sync": 2320404441, 
-                            "Total": 7309973200968, 
-                            "Write": 7301604350711
+                            "Async": 6738326456829, 
+                            "Read": 6604467420, 
+                            "Sync": 15040800328, 
+                            "Total": 6753367257157, 
+                            "Write": 6746762789737
                         }
                     }
                 ], 
@@ -996,78 +996,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25730836
+                            "Count": 26233908
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91005587456, 
+                    "available": 90838491136, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241103, 
+                    "inodes_free": 6237051, 
                     "io_in_progress": 0, 
-                    "io_time": 107848, 
-                    "read_time": 17524, 
-                    "reads_completed": 6707, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453642, 
-                    "sectors_written": 25299216, 
+                    "io_time": 113180, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25784464, 
                     "type": "vfs", 
-                    "usage": 10128678912, 
-                    "weighted_io_time": 12836976, 
-                    "write_time": 12814104, 
-                    "writes_completed": 177253, 
-                    "writes_merged": 312848
+                    "usage": 10295775232, 
+                    "weighted_io_time": 13236136, 
+                    "write_time": 13212728, 
+                    "writes_completed": 157263, 
+                    "writes_merged": 296906
                 }
             ], 
             "memory": {
-                "cache": 1616113664, 
+                "cache": 1495654400, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6558736384, 
-                "working_set": 2156449792
+                "rss": 38346752, 
+                "usage": 6465081344, 
+                "working_set": 2220195840
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3090258592, 
+                        "rx_bytes": 2948642007, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 237894, 
-                        "tx_bytes": 227292725, 
+                        "rx_packets": 118804, 
+                        "tx_bytes": 7043970, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 206228
+                        "tx_packets": 70027
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 211633474, 
+                        "rx_bytes": 4955833, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103351, 
-                        "tx_bytes": 204956394, 
+                        "rx_packets": 5590, 
+                        "tx_bytes": 8333820, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97806
+                        "tx_packets": 3736
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3090258592, 
+                "rx_bytes": 2948642007, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 237894, 
+                "rx_packets": 118804, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -1094,10 +1094,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 227292725, 
+                "tx_bytes": 7043970, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 206228
+                "tx_packets": 70027
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -1106,19 +1106,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:18:19.669873901Z"
+            "timestamp": "2016-06-16T09:43:51.23838095Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1624360788062, 
-                        1631075866323
+                        311583589611, 
+                        306648375977
                     ], 
-                    "system": 972280000000, 
-                    "total": 3255436654385, 
-                    "user": 1572270000000
+                    "system": 107970000000, 
+                    "total": 618231965588, 
+                    "user": 475610000000
                 }
             }, 
             "diskio": {
@@ -1127,11 +1127,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -1153,11 +1153,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12689029120, 
-                            "Read": 234584064, 
-                            "Sync": 485466112, 
-                            "Total": 13174495232, 
-                            "Write": 12939911168
+                            "Async": 13020743680, 
+                            "Read": 233797632, 
+                            "Sync": 411693056, 
+                            "Total": 13432436736, 
+                            "Write": 13198639104
                         }
                     }
                 ], 
@@ -1166,11 +1166,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5384411795972, 
-                            "Read": 11307319292, 
-                            "Sync": 172113226123, 
-                            "Total": 5556525022095, 
-                            "Write": 5545217702803
+                            "Async": 6364074802661, 
+                            "Read": 13256450623, 
+                            "Sync": 112795125666, 
+                            "Total": 6476869928327, 
+                            "Write": 6463613477704
                         }
                     }
                 ], 
@@ -1179,11 +1179,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174809, 
-                            "Read": 7225, 
-                            "Sync": 6395, 
-                            "Total": 181204, 
-                            "Write": 173979
+                            "Async": 158656, 
+                            "Read": 7328, 
+                            "Sync": 5106, 
+                            "Total": 163762, 
+                            "Write": 156434
                         }
                     }
                 ], 
@@ -1192,7 +1192,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48775
+                            "Count": 29325
                         }
                     }
                 ], 
@@ -1201,11 +1201,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307652796527, 
-                            "Read": 8368850257, 
-                            "Sync": 2320471625, 
-                            "Total": 7309973268152, 
-                            "Write": 7301604417895
+                            "Async": 6738326689149, 
+                            "Read": 6604467420, 
+                            "Sync": 15052919954, 
+                            "Total": 6753379609103, 
+                            "Write": 6746775141683
                         }
                     }
                 ], 
@@ -1214,78 +1214,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25731100
+                            "Count": 26234948
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91005583360, 
+                    "available": 90838396928, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241103, 
+                    "inodes_free": 6237050, 
                     "io_in_progress": 0, 
-                    "io_time": 107848, 
-                    "read_time": 17524, 
-                    "reads_completed": 6707, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453642, 
-                    "sectors_written": 25299504, 
+                    "io_time": 113204, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25785528, 
                     "type": "vfs", 
-                    "usage": 10128683008, 
-                    "weighted_io_time": 12836976, 
-                    "write_time": 12814104, 
-                    "writes_completed": 177259, 
-                    "writes_merged": 312878
+                    "usage": 10295869440, 
+                    "weighted_io_time": 13236160, 
+                    "write_time": 13212752, 
+                    "writes_completed": 157301, 
+                    "writes_merged": 296957
                 }
             ], 
             "memory": {
-                "cache": 1616134144, 
+                "cache": 1495678976, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6558818304, 
-                "working_set": 2156531712
+                "rss": 38346752, 
+                "usage": 6465183744, 
+                "working_set": 2220306432
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3090395168, 
+                        "rx_bytes": 2948951723, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 238005, 
-                        "tx_bytes": 227338391, 
+                        "rx_packets": 118949, 
+                        "tx_bytes": 7143881, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 206332
+                        "tx_packets": 70181
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 211670619, 
+                        "rx_bytes": 5691985, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103420, 
-                        "tx_bytes": 205076385, 
+                        "rx_packets": 6194, 
+                        "tx_bytes": 9331738, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97868
+                        "tx_packets": 4009
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3090395168, 
+                "rx_bytes": 2948951723, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 238005, 
+                "rx_packets": 118949, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -1312,10 +1312,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 227338391, 
+                "tx_bytes": 7143881, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 206332
+                "tx_packets": 70181
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -1324,19 +1324,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:18:32.276678363Z"
+            "timestamp": "2016-06-16T09:44:06.25953484Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1625899564027, 
-                        1632398068742
+                        315083800906, 
+                        308332496178
                     ], 
-                    "system": 973130000000, 
-                    "total": 3258297632769, 
-                    "user": 1573650000000
+                    "system": 110320000000, 
+                    "total": 623416297084, 
+                    "user": 477680000000
                 }
             }, 
             "diskio": {
@@ -1345,11 +1345,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -1371,11 +1371,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12689033216, 
-                            "Read": 234588160, 
-                            "Sync": 485552128, 
-                            "Total": 13174585344, 
-                            "Write": 12939997184
+                            "Async": 13020743680, 
+                            "Read": 233797632, 
+                            "Sync": 414429184, 
+                            "Total": 13435172864, 
+                            "Write": 13201375232
                         }
                     }
                 ], 
@@ -1384,11 +1384,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5384412763614, 
-                            "Read": 11308286934, 
-                            "Sync": 172115509574, 
-                            "Total": 5556528273188, 
-                            "Write": 5545219986254
+                            "Async": 6364074802661, 
+                            "Read": 13256450623, 
+                            "Sync": 113094094555, 
+                            "Total": 6477168897216, 
+                            "Write": 6463912446593
                         }
                     }
                 ], 
@@ -1397,11 +1397,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174810, 
-                            "Read": 7226, 
-                            "Sync": 6397, 
-                            "Total": 181207, 
-                            "Write": 173981
+                            "Async": 158656, 
+                            "Read": 7328, 
+                            "Sync": 5155, 
+                            "Total": 163811, 
+                            "Write": 156483
                         }
                     }
                 ], 
@@ -1410,7 +1410,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48780
+                            "Count": 29355
                         }
                     }
                 ], 
@@ -1419,11 +1419,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307652813357, 
-                            "Read": 8368867087, 
-                            "Sync": 2320512720, 
-                            "Total": 7309973326077, 
-                            "Write": 7301604458990
+                            "Async": 6738326689149, 
+                            "Read": 6604467420, 
+                            "Sync": 15082203004, 
+                            "Total": 6753408892153, 
+                            "Write": 6746804424733
                         }
                     }
                 ], 
@@ -1432,78 +1432,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25731276
+                            "Count": 26240292
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91005517824, 
+                    "available": 90838396928, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241103, 
+                    "inodes_free": 6237051, 
                     "io_in_progress": 0, 
-                    "io_time": 107848, 
-                    "read_time": 17524, 
-                    "reads_completed": 6708, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453650, 
-                    "sectors_written": 25299688, 
+                    "io_time": 113272, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25790912, 
                     "type": "vfs", 
-                    "usage": 10128748544, 
-                    "weighted_io_time": 12836976, 
-                    "write_time": 12814104, 
-                    "writes_completed": 177263, 
-                    "writes_merged": 312897
+                    "usage": 10295869440, 
+                    "weighted_io_time": 13236448, 
+                    "write_time": 13213040, 
+                    "writes_completed": 157355, 
+                    "writes_merged": 297015
                 }
             ], 
             "memory": {
-                "cache": 1616150528, 
+                "cache": 1495719936, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6559469568, 
-                "working_set": 2157285376
+                "rss": 38346752, 
+                "usage": 6465314816, 
+                "working_set": 2220498944
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3090531893, 
+                        "rx_bytes": 2949173091, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 238147, 
-                        "tx_bytes": 227368976, 
+                        "rx_packets": 119193, 
+                        "tx_bytes": 7460067, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 206450
+                        "tx_packets": 70476
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 211689521, 
+                        "rx_bytes": 5725836, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103486, 
-                        "tx_bytes": 205191031, 
+                        "rx_packets": 6281, 
+                        "tx_bytes": 9514864, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 97930
+                        "tx_packets": 4096
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3090531893, 
+                "rx_bytes": 2949173091, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 238147, 
+                "rx_packets": 119193, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -1530,10 +1530,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 227368976, 
+                "tx_bytes": 7460067, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 206450
+                "tx_packets": 70476
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -1542,19 +1542,19 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:18:46.543036481Z"
+            "timestamp": "2016-06-16T09:44:23.922837272Z"
         }, 
         {
             "cpu": {
                 "load_average": 0, 
                 "usage": {
                     "per_cpu_usage": [
-                        1627641936848, 
-                        1633245757987
+                        315935019851, 
+                        309258090668
                     ], 
-                    "system": 974220000000, 
-                    "total": 3260887694835, 
-                    "user": 1574530000000
+                    "system": 110530000000, 
+                    "total": 625193110519, 
+                    "user": 478550000000
                 }
             }, 
             "diskio": {
@@ -1563,11 +1563,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
+                            "Async": 110920, 
+                            "Read": 481, 
+                            "Sync": 402, 
+                            "Total": 111322, 
+                            "Write": 110841
                         }
                     }
                 ], 
@@ -1589,11 +1589,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 12689192960, 
-                            "Read": 234604544, 
-                            "Sync": 485736448, 
-                            "Total": 13174929408, 
-                            "Write": 12940324864
+                            "Async": 13020968960, 
+                            "Read": 233797632, 
+                            "Sync": 414769152, 
+                            "Total": 13435738112, 
+                            "Write": 13201940480
                         }
                     }
                 ], 
@@ -1602,11 +1602,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 5384548927951, 
-                            "Read": 11309959747, 
-                            "Sync": 172120378307, 
-                            "Total": 5556669306258, 
-                            "Write": 5545359346511
+                            "Async": 6364164609578, 
+                            "Read": 13256450623, 
+                            "Sync": 113129681998, 
+                            "Total": 6477294291576, 
+                            "Write": 6464037840953
                         }
                     }
                 ], 
@@ -1615,11 +1615,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 174834, 
-                            "Read": 7228, 
-                            "Sync": 6401, 
-                            "Total": 181235, 
-                            "Write": 174007
+                            "Async": 158704, 
+                            "Read": 7328, 
+                            "Sync": 5178, 
+                            "Total": 163882, 
+                            "Write": 156554
                         }
                     }
                 ], 
@@ -1628,7 +1628,7 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 48821
+                            "Count": 29399
                         }
                     }
                 ], 
@@ -1637,11 +1637,11 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Async": 7307653248641, 
-                            "Read": 8368910922, 
-                            "Sync": 2320596899, 
-                            "Total": 7309973845540, 
-                            "Write": 7301604934618
+                            "Async": 6738334165027, 
+                            "Read": 6604467420, 
+                            "Sync": 15089022960, 
+                            "Total": 6753423187987, 
+                            "Write": 6746818720567
                         }
                     }
                 ], 
@@ -1650,78 +1650,78 @@
                         "major": 8, 
                         "minor": 0, 
                         "stats": {
-                            "Count": 25731948
+                            "Count": 26241396
                         }
                     }
                 ]
             }, 
             "filesystem": [
                 {
-                    "available": 91005452288, 
+                    "available": 90838380544, 
                     "base_usage": 0, 
                     "capacity": 105553100800, 
                     "device": "/dev/sda1", 
-                    "inodes_free": 6241102, 
+                    "inodes_free": 6237052, 
                     "io_in_progress": 0, 
-                    "io_time": 107872, 
-                    "read_time": 17528, 
-                    "reads_completed": 6710, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453682, 
-                    "sectors_written": 25300360, 
+                    "io_time": 113296, 
+                    "read_time": 18900, 
+                    "reads_completed": 6810, 
+                    "reads_merged": 443, 
+                    "sectors_read": 452106, 
+                    "sectors_written": 25792040, 
                     "type": "vfs", 
-                    "usage": 10128814080, 
-                    "weighted_io_time": 12837088, 
-                    "write_time": 12814212, 
-                    "writes_completed": 177293, 
-                    "writes_merged": 312945
+                    "usage": 10295885824, 
+                    "weighted_io_time": 13236504, 
+                    "write_time": 13213096, 
+                    "writes_completed": 157429, 
+                    "writes_merged": 297062
                 }
             ], 
             "memory": {
-                "cache": 1616183296, 
+                "cache": 1495744512, 
                 "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
                 "failcnt": 0, 
                 "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
+                    "pgfault": 711619, 
+                    "pgmajfault": 1094
                 }, 
-                "rss": 39526400, 
-                "usage": 6559002624, 
-                "working_set": 2156855296
+                "rss": 38346752, 
+                "usage": 6465810432, 
+                "working_set": 2220982272
             }, 
             "network": {
                 "interfaces": [
                     {
                         "name": "eth0", 
-                        "rx_bytes": 3090761896, 
+                        "rx_bytes": 2949402940, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 238294, 
-                        "tx_bytes": 227438770, 
+                        "rx_packets": 119388, 
+                        "tx_bytes": 7521778, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 206597
+                        "tx_packets": 70664
                     }, 
                     {
                         "name": "cbr0", 
-                        "rx_bytes": 211743162, 
+                        "rx_bytes": 5769331, 
                         "rx_dropped": 0, 
                         "rx_errors": 0, 
-                        "rx_packets": 103589, 
-                        "tx_bytes": 205387357, 
+                        "rx_packets": 6381, 
+                        "tx_bytes": 9666945, 
                         "tx_dropped": 0, 
                         "tx_errors": 0, 
-                        "tx_packets": 98026
+                        "tx_packets": 4183
                     }
                 ], 
                 "name": "eth0", 
-                "rx_bytes": 3090761896, 
+                "rx_bytes": 2949402940, 
                 "rx_dropped": 0, 
                 "rx_errors": 0, 
-                "rx_packets": 238294, 
+                "rx_packets": 119388, 
                 "tcp": {
                     "Close": 0, 
                     "CloseWait": 0, 
@@ -1748,10 +1748,10 @@
                     "SynSent": 0, 
                     "TimeWait": 0
                 }, 
-                "tx_bytes": 227438770, 
+                "tx_bytes": 7521778, 
                 "tx_dropped": 0, 
                 "tx_errors": 0, 
-                "tx_packets": 206597
+                "tx_packets": 70664
             }, 
             "task_stats": {
                 "nr_io_wait": 0, 
@@ -1760,269 +1760,60 @@
                 "nr_stopped": 0, 
                 "nr_uninterruptible": 0
             }, 
-            "timestamp": "2016-06-16T11:19:02.249433192Z"
-        }, 
-        {
-            "cpu": {
-                "load_average": 0, 
-                "usage": {
-                    "per_cpu_usage": [
-                        1628913875385, 
-                        1634392309552
-                    ], 
-                    "system": 974720000000, 
-                    "total": 3263306184937, 
-                    "user": 1575950000000
-                }
-            }, 
-            "diskio": {
-                "io_merged": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 107066, 
-                            "Read": 646, 
-                            "Sync": 1, 
-                            "Total": 107067, 
-                            "Write": 106421
-                        }
-                    }
-                ], 
-                "io_queued": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 0, 
-                            "Read": 0, 
-                            "Sync": 0, 
-                            "Total": 0, 
-                            "Write": 0
-                        }
-                    }
-                ], 
-                "io_service_bytes": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 12689233920, 
-                            "Read": 234604544, 
-                            "Sync": 485859328, 
-                            "Total": 13175093248, 
-                            "Write": 12940488704
-                        }
-                    }
-                ], 
-                "io_service_time": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 5384552701931, 
-                            "Read": 11309959747, 
-                            "Sync": 172123145060, 
-                            "Total": 5556675846991, 
-                            "Write": 5545365887244
-                        }
-                    }
-                ], 
-                "io_serviced": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 174838, 
-                            "Read": 7228, 
-                            "Sync": 6403, 
-                            "Total": 181241, 
-                            "Write": 174013
-                        }
-                    }
-                ], 
-                "io_time": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Count": 48847
-                        }
-                    }
-                ], 
-                "io_wait_time": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Async": 7307653315581, 
-                            "Read": 8368910922, 
-                            "Sync": 2320644489, 
-                            "Total": 7309973960070, 
-                            "Write": 7301605049148
-                        }
-                    }
-                ], 
-                "sectors": [
-                    {
-                        "major": 8, 
-                        "minor": 0, 
-                        "stats": {
-                            "Count": 25732268
-                        }
-                    }
-                ]
-            }, 
-            "filesystem": [
-                {
-                    "available": 91005333504, 
-                    "base_usage": 0, 
-                    "capacity": 105553100800, 
-                    "device": "/dev/sda1", 
-                    "inodes_free": 6241101, 
-                    "io_in_progress": 0, 
-                    "io_time": 107872, 
-                    "read_time": 17528, 
-                    "reads_completed": 6710, 
-                    "reads_merged": 600, 
-                    "sectors_read": 453682, 
-                    "sectors_written": 25300696, 
-                    "type": "vfs", 
-                    "usage": 10128932864, 
-                    "weighted_io_time": 12837088, 
-                    "write_time": 12814212, 
-                    "writes_completed": 177301, 
-                    "writes_merged": 312973
-                }
-            ], 
-            "memory": {
-                "cache": 1616199680, 
-                "container_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
-                }, 
-                "failcnt": 0, 
-                "hierarchical_data": {
-                    "pgfault": 711850, 
-                    "pgmajfault": 1092
-                }, 
-                "rss": 39526400, 
-                "usage": 6559502336, 
-                "working_set": 2157285376
-            }, 
-            "network": {
-                "interfaces": [
-                    {
-                        "name": "eth0", 
-                        "rx_bytes": 3091044080, 
-                        "rx_dropped": 0, 
-                        "rx_errors": 0, 
-                        "rx_packets": 238499, 
-                        "tx_bytes": 228137025, 
-                        "tx_dropped": 0, 
-                        "tx_errors": 0, 
-                        "tx_packets": 206797
-                    }, 
-                    {
-                        "name": "cbr0", 
-                        "rx_bytes": 212429725, 
-                        "rx_dropped": 0, 
-                        "rx_errors": 0, 
-                        "rx_packets": 103712, 
-                        "tx_bytes": 205640486, 
-                        "tx_dropped": 0, 
-                        "tx_errors": 0, 
-                        "tx_packets": 98135
-                    }
-                ], 
-                "name": "eth0", 
-                "rx_bytes": 3091044080, 
-                "rx_dropped": 0, 
-                "rx_errors": 0, 
-                "rx_packets": 238499, 
-                "tcp": {
-                    "Close": 0, 
-                    "CloseWait": 0, 
-                    "Closing": 0, 
-                    "Established": 0, 
-                    "FinWait1": 0, 
-                    "FinWait2": 0, 
-                    "LastAck": 0, 
-                    "Listen": 0, 
-                    "SynRecv": 0, 
-                    "SynSent": 0, 
-                    "TimeWait": 0
-                }, 
-                "tcp6": {
-                    "Close": 0, 
-                    "CloseWait": 0, 
-                    "Closing": 0, 
-                    "Established": 0, 
-                    "FinWait1": 0, 
-                    "FinWait2": 0, 
-                    "LastAck": 0, 
-                    "Listen": 0, 
-                    "SynRecv": 0, 
-                    "SynSent": 0, 
-                    "TimeWait": 0
-                }, 
-                "tx_bytes": 228137025, 
-                "tx_dropped": 0, 
-                "tx_errors": 0, 
-                "tx_packets": 206797
-            }, 
-            "task_stats": {
-                "nr_io_wait": 0, 
-                "nr_running": 0, 
-                "nr_sleeping": 0, 
-                "nr_stopped": 0, 
-                "nr_uninterruptible": 0
-            }, 
-            "timestamp": "2016-06-16T11:19:14.488675777Z"
+            "timestamp": "2016-06-16T09:44:39.758803689Z"
         }
     ], 
     "subcontainers": [
         {
-            "name": "/19380666fb71931b9e627f30cfebff1a8e2744c7d1aa1139be97fa3b14c93b36"
+            "name": "/02e201c1606f5b4b763f32e4c98cc9305e75ecbf9d594d35c005ace731137e01"
         }, 
         {
-            "name": "/319d4ecf4dd0297a22812e5a3ac0ba3f97007a898bcb49023f21d5bb474df02a"
+            "name": "/053417ee759f346aa684ac057528b541571a7d77748e1058dc4a5ec44920eb62"
         }, 
         {
-            "name": "/8bdb5a1b61d9fa0877113034599a3a25e3eb66e054134972c4060dd77ab8cc45"
+            "name": "/21f7109716b0ab63e8f16e5c46b8c27977438eb16d60a504f0420336ce348d1d"
         }, 
         {
-            "name": "/8ed2527a2935077523abc1bed903454360a022517b9e1928ec7b609da40e463c"
+            "name": "/3d52ba3438efa13be1db6f7d1e58065146d48cfa6608234f8a3ca4bff65ac97d"
         }, 
         {
-            "name": "/99b7b441ec772119f60a922a607a1b2e24a22540f7c5fa034e702b6a3b8f1857"
+            "name": "/4fc82374cc113345502b074f99b6aa0da519083fd5ca617fefb560a9e909947d"
         }, 
         {
-            "name": "/9e39e0e706e7264f69502d8f74e7a6339828537de1fb8b29cf612f2e20aad27d"
+            "name": "/591c52d7e8cdb3437eb3557426162832eb993fbdeae46d3893b764761a04f617"
         }, 
         {
-            "name": "/a03cfb10d838b22f1f126ae588e0806176cad64e00fd8522d1e42c8e0c60b265"
+            "name": "/77074d040fe5ff5ee761e95ed282cb03eb2ca746e7eff4299df00a258053fb37"
         }, 
         {
-            "name": "/b3c1e61212a459681cd384f8a9ff496fb45be28c37430d38b9445edf6469376a"
+            "name": "/843600b76630bf48f030d84c7cf6836d5b19ddee04b5c37c0a819bb9f9ecda27"
         }, 
         {
-            "name": "/b67eff88f7ac343f1fcd524d86b5e3157258f4a0646cb6243331071e0bb39a7d"
+            "name": "/990c6a3caedcbd23b2ddd27404d24177004ebf5bda58f556eadc0ff31604e172"
         }, 
         {
-            "name": "/c0419feeee06d9410e2cb571b3f74a499bbcf85c934bef5d939d2c2410441f76"
+            "name": "/992f1cb01a83e15abd701c4e086551125c1f464f7cad747bdadb8078b20c5e7b"
         }, 
         {
-            "name": "/d14ab82c231da334f55de6b869ffd64efa9e4928357bec47c659eab751664b36"
+            "name": "/a545a7ea154bf51c5024beda8676d1348f8c7b527fc0a973581bdc0d6024bf11"
+        }, 
+        {
+            "name": "/a9158a9d46bd863c0fc1015a7b3bbc2c1529daa8662b232fc432e957c93cce35"
+        }, 
+        {
+            "name": "/b956139a74f50d34146b6ab23d45126239b887e950036a433bd5f0233e258476"
+        }, 
+        {
+            "name": "/bd1cafa1945f8630b53a6509d78bbd3d87f234361a1bfb4d04cf1aa56756a30d"
+        }, 
+        {
+            "name": "/d56b095f14ed9a2ecf98b734b9001a689c7caa5b5d737020771e7bac5682723c"
         }, 
         {
             "name": "/docker-daemon"
         }, 
         {
-            "name": "/e9cad63d9d8817449c5e507ab544d86fb53b47b380d3be171bdc89bb34310b16"
-        }, 
-        {
-            "name": "/ea871366d6441231aa5de55f7ff21a78c6514fa78b20ef399813a525e50d9024"
+            "name": "/ed6440881629a656e543c6fd1185752032e16b362afe1821d1d163b9d09ec67b"
         }, 
         {
             "name": "/kubelet"
